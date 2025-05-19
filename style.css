@@ -107,3 +107,50 @@ body {
     border-radius: 25px;
     cursor: pointer;
 }
+ .footer {
+            width: 80%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .left-section {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+        .left-section h1 {
+            font-size: 2.5rem;
+            font-weight: 600;
+        }
+        .left-section p {
+            font-size: 1rem;
+            color: #333;
+        }
+        .social-icons {
+            display: flex;
+            gap: 15px;
+        }
+        .social-icons a {
+            font-size: 1.5rem;
+            color: #555;
+            text-decoration: none;
+        }
+        .links {
+            list-style-type: none;
+            padding: 0;
+        }
+        .links li {
+            margin-bottom: 10px;
+        }
+        .links li a {
+            text-decoration: none;
+            color: #333;
+            font-size: 1rem;
+        }
+        .rating-stars {
+            color: #00b300;
+            font-size: 1.2rem;
+        }
+        .right-section img {
+            width: 150px;
+        }
