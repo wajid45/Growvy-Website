@@ -108,6 +108,12 @@ body {
     cursor: pointer;
 }
  .footer {
+    font-family: 'Inter', sans-serif;
+            background-color: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
             width: 80%;
             display: flex;
             justify-content: space-between;
@@ -152,5 +158,6 @@ body {
             font-size: 1.2rem;
         }
         .right-section img {
-            width: 150px;
+            width: 300px;
+            justify-content: right;
         }
