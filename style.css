@@ -87,3 +87,23 @@ body {
     justify-items: end;
     align-items: end;
 }
+
+.job h1 {
+    font-size: 40pt;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+}
+.job p {
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+}
+.job button {
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+    padding: 10px 20px;
+    background-color: rgb(37, 156, 37);
+    color: white;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+}
