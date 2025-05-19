@@ -19,6 +19,12 @@ body {
     font: bold;
     font-family: Arial, sans-serif;
 }
+.hero{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/img10.png);
+    background-size: 300px 300px;
+    background-position: right;
+}
+
 .hero-text h1 {
     font-size: 50pt;
     font-family: Arial, sans-serif;
@@ -50,7 +56,6 @@ body {
 .hero-text p {
     font-size: 20px;
     font-family: Arial, sans-serif;
-        margin-top: -250pt;
     }
 
 .hero-text button {
